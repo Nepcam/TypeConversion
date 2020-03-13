@@ -13,7 +13,7 @@ namespace TypeConversion
             // Declare your variables in one place
             int serialNo = 100;
             string accountNo = "";
-            float anyNo = 4.2f;
+            float anyNo = 4.8f;
 
             // accountNo = serialNo; *** cannot convert 'int' to 'string' (use a conversion method see example below) ***
             accountNo = serialNo.ToString();
