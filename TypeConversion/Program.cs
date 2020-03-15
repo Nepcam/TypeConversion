@@ -22,6 +22,14 @@ namespace TypeConversion
             // serialNo = anyNo; *** cannot convert 'float' to 'int'
             serialNo = Convert.ToInt32(anyNo);
             Console.WriteLine(serialNo);
+
+            string message = "hello" + "world";
+            Console.WriteLine(message);
+
+            int n = 18 % 4;
+            MessageBox.Show(n.ToString());
+
+            const double PI = 3.14;
         }
     }
 }
